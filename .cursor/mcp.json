@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "MetaAds": {
+      "url": "https://meta-ads.mcp.pipeboard.co/"
+    },
+    "Playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "GoogleSheets" : {
+      "command": "node",
+      "args" : ["C:/Users/user/Downloads/growth-marketing-261115-master/growth-marketing-261115-master/google-sheet-mcp/server.mjs"]
+    },
+    "GoogleForms": {
+      "command": "node",
+      "args": ["C:/Users/user/Downloads/growth-marketing-261115-master/growth-marketing-261115-master/google-forms-mcp/server.mjs"]
+    },
+    "Notion":{
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "Slack":{
+      "url":"https://mcp.slack.com/mcp"
+    }
+  }
+}
